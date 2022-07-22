@@ -1,0 +1,217 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  
+}
+
+/* Basic site section */
+.features {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.features__header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.features__header h2 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #777;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Main Page CSS */
+footer {
+  background: #000000;
+  padding: 40px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.HeroTitle {
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-top: 10%;
+}
+
+.Hero {
+  min-height: 100vh;
+  margin: auto;
+  text-align: left;
+  background: #242424;
+  background-image: url(../img/bearbullbackground.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.HeroContent {
+  margin: auto;
+  width: 50%;
+  color: #000;
+  font-family: "Helvetica";
+}
+
+.hero_content a {
+  display: inline-block; color: #fff;
+  border: 3px solid #fff;
+  border-radius: 3px;
+  padding: 15px 30px;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 28px;
+  transition: transform 1s;
+}
+  .hero_content a:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.features_box-wrapper {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features_box {
+  text-align: center;
+  flex: 1;
+  margin-left: 5px;
+}
+
+.features_box img {
+  margin-bottom: 12px;
+  width: 80px;
+}
+.features_box h5 {
+  font-size: 20px;
+  color: #999;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 0;
+}
+.MenuWhole {
+  display: none;
+}
+
+.InputBoxWidth {
+  width: 250px;
+  padding-bottom: 10px;
+}
+
+.HeroSubtle {
+  min-height: 82vh;
+  text-align: center;
+  background: #242424;
+  color: #ffffff;
+  background-position: center;
+  background-size: cover;
+}
+
+.HeroTitleSmall {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-top: 5%;
+}
+
+.HeroSubtitle {
+  font-size: 20px;
+}
+
+/* For login and registeration */
+
+.login-form-outer {
+  margin: auto;
+  width: 350px;
+  background-color: #202020;
+  border-radius: 10px
+}
+
+.login-form-inner {
+  width: 300px;
+  margin: auto; 
+  padding: 10px;
+}
+
+/* For general content*/
+h2 {
+  text-align: center;
+  font-weight: 800;
+  padding: 10px;
+}
+
+.color-me-in {
+  color: #ffffff;
+  background-color: #000000;
+  background: #000000;
+}
+
+.center-contents-flex {
+  display: flex;
+  justify-content: center;
+  /*background-color: #000;*/
+  padding-top: 2px;
+  padding-bottom: 6px;
+}
+
+.general-form {
+  width: 50%;
+}
+
+.chart-div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  height: 550px;
+  background-color: #242424;
+  padding-bottom: 20px;
+}
+
+
+
+/* Responsive columns 
+@media​ (max-width: ​700px​) {
+  .features_box-wrapper​ {
+    flex-wrap​: wrap;
+  }
+  .features_box {   ​flex​: ​1​ ​100%​;  } }
+*/
+
+@media (max-width: 800px) {
+  .features_box-wrapper {
+    flex-wrap: wrap;
+  }
+  .features_box {
+    flex: 1 100%;
+  }
+  .NavWhole {
+    display: none;
+  }
+  .hero_content {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .MenuWhole {
+    display: inline-block;
+    width: 90%;
+  }
+}

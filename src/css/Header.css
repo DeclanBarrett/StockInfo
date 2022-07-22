@@ -1,0 +1,71 @@
+.navbar {
+    text-decoration: none;
+    margin: 0 auto;
+    font-size: 20px;
+    background: #000000;
+    color: #ffffff;
+    font-family: Helvetica;
+    font-style: bold;
+}
+
+.navbar-toggler {
+  color: #ffffff;
+}
+
+nav ul li a {
+  font-family: Helvetica;
+  font-style: bold;
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 3px;
+  transition: 0.3s ease all;
+}
+
+nav ul li a:hover {
+    color: #adadad;
+}
+
+nav ul li a.signin:hover {
+  background: #222222;
+  color: #ffffff;
+}
+
+nav ul li a.signin {
+  background: #000000;
+  color: #ffffff;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+  }
+
+  
+#icon {
+    display: inline-block;
+    color: #fff;
+    width: 10%;
+    margin-left: 10%;
+  }
+  
+  #icon img {
+    width: 200px;
+    border-radius: 3px;
+    margin-right: 20px;
+    vertical-align: middle;
+  }
+
+  #hamburger {
+    display: inline-block;
+    color: #fff;
+    width: 10%;
+  }
+
+  #hamburger img {
+    width: 40px;
+    border-radius: 3px;
+    margin-right: 10%;
+    vertical-align: middle;
+  }
